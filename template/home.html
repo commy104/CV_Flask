@@ -1,0 +1,23 @@
+{% extends 'layout/base.html' %}
+
+{% block head %}
+    <title>Video Streaming</title>
+{% endblock %}
+
+{% block body %}
+    <h1>Translating your motions</h1>
+
+    <table>
+        <tr>
+            <td>
+                <img src="http://127.0.0.1:5000/detectme"
+                     style="width: 640px; height: 480px"
+                />
+            </td>
+            <td>
+                나의 비디오...
+            </td>
+        </tr>
+    </table>
+    {% include 'hello2.html' %}
+{% endblock %}
